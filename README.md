@@ -23,7 +23,7 @@ rake db:create & rake db:migrate
 yarn run test
 ```
 ## To Integrate e2e test with codeceptjs
-1) create a folder in root app directory named _spec_ (if you cover unit test then skip this step)
+1) create a folder in root app directory named _spec_ (if you already cover unit test then skip this step)
 2) create folder _e2e_ inside _spec_ folder
 3) then go to e2e directory cd spec/e2e
 4) then run npm init
