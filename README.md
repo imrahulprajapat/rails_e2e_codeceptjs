@@ -1,6 +1,6 @@
 # README
 
-The main objective of this repo to learn how to configure **e2e** test case using [CodeCeptjs](https://codecept.io/basics/) with **RubyonRails** application.
+The main objective of this repo to learn how to configure **e2e** and **BDD** test case using [CodeCeptjs](https://codecept.io/basics/) and **cucumber** with **RubyonRails** application.
 
 Things you may want to cover:
 
