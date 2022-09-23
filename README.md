@@ -35,35 +35,40 @@ yarn run test
 10) add feature test and run it.
 
 ## To Integrate BDD with cucumber
+```
+ mkdir bdd 
+``` 
+better to keep this in seperate folder inside spec
 
-$ mkdir bdd ## better to keep this in seperate folder inside spec
 
-Use cd to go into that directory.  If you want to, you can open the directory up in your favourite text exitor at this point.
+* Use cd to go into that directory.  If you want to, you can open the directory up in your favourite text exitor at this point.
+```
+cd bdd
+```
 
-$ cd bdd
+* First we’ll add ***Cucumber*** and  ***RSpec-Expectations*** in Gemfile
 
-First we’ll add Cucumber and  RSpec-Expectations in Gemfile
-
-Now go back to the command-line  and run bundle install to install those gems.
-
-$ bundle install
-Now we’re ready! If we run cucumber at this point , we’ll see it’s telling us to create a features directory.
-
-$ bundle exec cucumber
-No such file or directory - features. You can use `cucumber --init` to get started.
+* Now go back to the command-line  and run bundle install to install those gems.
+```
+ bundle install
+ ```
+ 
+* Now we’re ready! If we run cucumber at this point , we’ll see it’s telling us to create a features directory.
+```
+bundle exec cucumber
+```
+* No such file or directory - features. You can use `cucumber --init` to get started.
 Good, we’ve installed Cucumber.
 
-As instructed, we can use the cucumber --init command to create the conventional folder structure for our Gherkin specifications and the code that will let Cucumber test them:
+* As instructed, we can use the cucumber --init command to create the conventional folder structure for our Gherkin specifications and the code that will let Cucumber test them:
+```
+ cucumber --init
+```
 
-$ cucumber --init
-  create   features
-  create   features/step_definitions
-  create   features/support
-  create   features/support/env.rb
-
-Now we’re ready to create our first feature file.
-
-$ bundle exec cucumber
+* Now we’re ready to create our first feature file.
+```
+bundle exec cucumber
+```
 0 scenarios
 0 steps
 0m0.000s
